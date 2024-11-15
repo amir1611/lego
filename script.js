@@ -1,0 +1,1 @@
+// Removed theme toggle functionality

@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-left: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navbar-icons .icon {
+    margin-left: 15px;
+}
+
+.navbar-icons img {
+    height: 24px;
+    width: 24px;
+    transition: transform 0.3s;
+}
+
+.navbar-icons img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: #333;
+}
+
+.hero {
+    background-image: url('resources/image/Main Banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 350px;
+}
+
+.hero .text-container {
+    text-align: left;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.hero a {
+    margin-top: 10px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #260b55; /* Dark background color */
+}
+
+footer h5 {
+    margin-top: 20px; /* Space above headings */
+    font-weight: bold; /* Bold headings */
+    text-align: left; /* Align headings to the left */
+}
+
+footer p {
+    
+    text-align: left; /* Align text to the left */
+}
+
+footer .text-white {
+    color: white; /* White text color */
+}
+
+footer .text-center {
+    text-align: center; /* Center text */
+}
+
+footer .py-4 {
+    padding: 2rem 0; /* Vertical padding */
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary color */
+    border: none; /* Remove border */
+    padding: 12px 24px; /* Increase padding for a larger button */
+    font-size: 1.1rem; /* Slightly larger font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for background, transform, and shadow */
+    position: relative; /* For pseudo-element positioning */
+    overflow: hidden; /* Hide overflow for the pseudo-element */
+}
+
+.btn-primary i {
+    margin-right: 8px; /* Add space between the icon and text */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.8), 0 0 40px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
+.btn-primary:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.8), 0 0 40px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.row {
+    margin-bottom: 10px; /* Adjust spacing between rows */
+}
+
+.follow-us-container {
+    display: flex;
+    flex-direction: column; /* Stack heading and icons vertically */
+    align-items: center; /* Center align the heading and icons */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    margin-top: 0; /* Remove margin to bring icons closer */
+}
+
+.social-icons .icon {
+    background-color: black; /* Set background color to black */
+    border-radius: 50%; /* Make it circular */
+    padding: 10px; /* Space inside the circle */
+    margin: 0 5px; /* Space between icons */
+    display: flex;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    width: 40px; /* Set width for perfect circle */
+    height: 40px; /* Set height for perfect circle */
+}
+
+.social-icons .icon:hover {
+    background-color: #333; /* Darker shade on hover */
+}
+
+.social-icons i {
+    color: white; /* White icon color */
+    font-size: 20px; /* Adjust icon size */
+}
+
+.location {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center vertically */
+    background-color: black; /* Set background color to black */
+    padding: 2px 4px; /* Minimal padding for a tighter fit */
+    border-radius: 5px; /* Optional: Rounded corners */
+    margin: 5px 0; /* Space above and below */
+}
+
+.location i {
+    margin-right: 5px; /* Space between icon and text */
+    color: white; /* Icon color */
+}
+
+.location span {
+    color: white; /* Text color */
+    font-size: 16px; /* Adjust font size */
+}
