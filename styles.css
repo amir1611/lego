@@ -207,3 +207,15 @@ footer .py-4 {
     color: white; /* Text color */
     font-size: 16px; /* Adjust font size */
 }
+
+.dropdown-menu {
+    background-color: #ffffff; /* Background color for dropdown */
+}
+
+.dropdown-item {
+    color: #333; /* Text color for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Hover effect for dropdown items */
+}
