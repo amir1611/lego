@@ -156,6 +156,7 @@ footer .py-4 {
 }
 
 .row {
+    display: flex; /* Use flexbox for the row */
     margin-bottom: 10px; /* Adjust spacing between rows */
 }
 
@@ -256,4 +257,30 @@ footer .py-4 {
     .hero p {
         font-size: 0.9rem; /* Smaller paragraph text on mobile */
     }
+}
+
+.card {
+    display: flex; /* Use flexbox for the card */
+    flex-direction: column; /* Stack children vertically */
+    height: 100%; /* Make cards take full height of the row */
+    margin-bottom: 20px; /* Space between cards */
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Set border radius for rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure images cover the area */
+}
+
+.card-body {
+    display: flex; /* Use flexbox for the card body */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Space out the content */
+    flex-grow: 1; /* Allow the card body to grow and fill the space */
+}
+
+.card-text {
+    margin-bottom: auto; /* Ensure the text takes up space above the button */
 }
