@@ -196,8 +196,9 @@ footer .py-4 {
 .location {
     display: flex; /* Use flexbox for alignment */
     align-items: center; /* Center vertically */
-    background-color: black; /* Set background color to black */
-    padding: 2px 4px; /* Minimal padding for a tighter fit */
+    justify-content: center; /* Center horizontally */
+    background-color: black; /* Black background for location */
+    padding: 5px; /* Add padding for a tighter fit */
     border-radius: 5px; /* Optional: Rounded corners */
     margin: 5px 0; /* Space above and below */
 }
